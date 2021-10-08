@@ -1,4 +1,6 @@
+
 import { Component } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularUI';
+  title = 'DemoApp';
+  response = "No data loaded, yet";
+  constructor(private http: HttpClient) 
+  { 
+    this.http.get('http://localhost/demo', {responseType: 'text'}).subscribe((response: any) => {
+      console.log(response);
+	  this.response = response;		
+	});
+  }  
 }
