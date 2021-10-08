@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pr6R0kYQK6jkp6IXagR24BKgraiXRHEZeoo+dpxFOZRat58TC8Ty2lHhsKGLtf36kOJPFPRGgyJehl7Lz7dqeA==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\Practice\\KubernetesPractice\\DemoApi\\DemoApi\\DemoApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dimitris\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
